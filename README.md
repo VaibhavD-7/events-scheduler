@@ -7,9 +7,9 @@
 
 ## Screenshots
 
-!(/public/performance-matrix.png?raw=true)
-!(/public/desktop-responsive-ui.png?raw=true)
-!(/public/mobile-responsive-ui.png?raw=true)
+![performance](./blob/performance-matrix.png?raw=true)
+![desktop](./blobn/desktop-responsive-ui.png?raw=true)
+![mobile](./blob/mobile-responsive-ui.png?raw=true)
 
 ## Codebase breakdown
 

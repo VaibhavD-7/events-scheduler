@@ -1,0 +1,90 @@
+.dateItem {
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(218, 220, 224);
+  text-align: center;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 430px) {
+  .dateItem {
+    width: 100%;
+  }
+}
+
+/* Tablet responsiveness */
+@media screen and (min-width: 425px) and (max-width: 820px) {
+  .dateItem {
+    width: 25%;
+  }
+}
+
+/* Small laptops */
+@media screen and (min-width: 820px) and (max-width: 1024px) {
+  .dateItem {
+    width: 20%;
+  }
+}
+
+/* large laptops */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .dateItem {
+    width: calc(100% / 7);
+  }
+}
+
+.activeItem {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.disabledItem {
+  background-color: #a3998f;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.dayText {
+  color: #70757a;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.dateText {
+  color: rgb(60, 64, 67);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  width: 30px;
+  height: 20px;
+  margin: 0 auto;
+  padding-top: 2px;
+}
+
+.dateOverlay {
+  background-color: #a3998f;
+  color: white;
+  border-radius: 50%;
+}
+
+.eventItem {
+  width: 100%;
+  height: max-content;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 5px auto 0;
+  background-color: #eae7dc;
+  cursor: pointer;
+  overflow-wrap: break-word;
+  hyphens: manual;
+}
+
+.eventItem:hover {
+  background-color: #c5a01b;
+}

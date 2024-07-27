@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  padding-bottom: 20px;
+}
+
+.input {
+  width: 95%;
+  padding: 5px;
+  border: 2px solid #ac8968;
+  border-radius: 10px;
+  font-size: 14px;
+  margin: 20px auto 0;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.titleInput {
+  height: 45px;
+}
+
+.btn {
+  width: 95%;
+  height: 40px;
+  border-radius: 10px;
+  margin: 20px auto 0;
+  cursor: pointer;
+}
+
+.submit {
+  background-color: #ac8968;
+  border: none;
+  color: white;
+}
+
+.deleteBtn {
+  border: 2px solid #ac8968;
+  background-color: transparent;
+}
+
+.errorText {
+  font-size: 10px;
+  color: red;
+  margin: 10px 10px 0;
+}
